@@ -24,6 +24,9 @@
 	conflictstyle = diff3
 [mergetool]
 	prompt = false
+[rebase]
+	autosquash = true
+	autostash = true
 [rerere]
 	enabled = true
 [sendpack]
