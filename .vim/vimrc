@@ -30,7 +30,9 @@ set guioptions=
 set cursorline
 set encoding=utf-8
 
-colo molokai
+colorscheme molokai
+" set background=dark
+" colorscheme solarized
 
 map <leader>f :FufCoverageFile<CR>
 map <leader>b :FufBuffer<CR>
