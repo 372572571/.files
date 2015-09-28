@@ -1,4 +1,5 @@
 export HISTCONTROL=erasedups
+export HISTSIZE=32767
 
 export EDITOR="vim"
 export VISUAL="vim"
