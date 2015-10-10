@@ -29,6 +29,7 @@ let loaded_matchparen = 1
 set guioptions=
 set cursorline
 set encoding=utf-8
+set mouse-=a
 
 colorscheme molokai
 " set background=dark
