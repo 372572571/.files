@@ -31,6 +31,8 @@ set cursorline
 set encoding=utf-8
 set mouse-=a
 
+let g:netrw_dirhistmax = 0
+
 colorscheme molokai
 " set background=dark
 " colorscheme solarized
