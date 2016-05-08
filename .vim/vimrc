@@ -33,9 +33,11 @@ set mouse-=a
 
 let g:netrw_dirhistmax = 0
 
+" let g:rehash256 = 1
 colorscheme molokai
 " set background=dark
 " colorscheme solarized
+" colorscheme material
 
 map <leader>f :FufCoverageFile<CR>
 map <leader>b :FufBuffer<CR>
