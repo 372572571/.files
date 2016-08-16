@@ -45,3 +45,10 @@ map <leader>b :FufBuffer<CR>
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "<Tab>"
 let g:acp_behaviorKeywordLength = 1
 let g:acp_behaviorKeywordCommand = "\<C-p>"
+
+"
+" windows
+"
+" set softtabstop=0
+" set noexpandtab
+" set fileformats=dos,unix
