@@ -43,7 +43,5 @@ map <leader>f :FufCoverageFile<CR>
 map <leader>b :FufBuffer<CR>
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "<Tab>"
-let g:acp_behaviorKeywordCommand = "\<C-p>"
 let g:acp_behaviorKeywordLength = 1
-
-map <F5> :wa<CR>:<C-P><CR>
+let g:acp_behaviorKeywordCommand = "\<C-p>"
