@@ -47,6 +47,11 @@ let g:acp_behaviorKeywordLength = 1
 let g:acp_behaviorKeywordCommand = "\<C-p>"
 
 "
+" vt100
+"
+" set hidden
+
+"
 " windows
 "
 " set softtabstop=0
