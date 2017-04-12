@@ -19,12 +19,8 @@ fi
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
-export HISTCONTROL=erasedups
+export LANG="en_US.UTF-8"
 export HISTSIZE=32767
-
 export EDITOR="vim"
 export VISUAL="vim"
 export PS1="\$ "
-
-eval `dircolors -b ~/.dircolors`
-alias ls="ls --color=auto"
