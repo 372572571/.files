@@ -11,4 +11,6 @@ MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 eval `dircolors -b ~/.dircolors`
 alias ls="ls --color=auto"
 
+eval "$(thefuck --alias)"
+
 . $(brew --prefix)/etc/bash_completion
