@@ -15,8 +15,8 @@ eval "$(thefuck --alias)"
 
 . $(brew --prefix)/etc/bash_completion
 
-export ANDROID_SDK_HOME=~/data/project/android/sdk
-export PATH=$ANDROID_SDK_HOME/tools:$ANDROID_SDK_HOME/tools/bin:$ANDROID_SDK_HOME/platform-tools:$PATH
+export ANDROID_SDK_HOME=~/Documents/project/android/sdk
+export PATH=$ANDROID_SDK_HOME/tools:$ANDROID_SDK_HOME/platform-tools:$PATH
 
-export ANDROID_NDK_HOME=~/data/project/android/ndk
+export ANDROID_NDK_HOME=~/Documents/project/android/ndk
 export PATH=$ANDROID_NDK_HOME:$PATH
