@@ -7,6 +7,7 @@ behave xterm
 set exrc
 
 set autowrite
+set noswapfile
 set nobackup
 set nowritebackup
 set noundofile
