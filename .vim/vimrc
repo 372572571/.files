@@ -4,6 +4,8 @@ set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 behave xterm
 
+set keymap=dvorak
+
 set exrc
 
 set autowrite
