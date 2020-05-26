@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export HISTCONTROL=erasedups
+export HISTCONTROL=ignoreboth
 export HISTSIZE=32767
 
 export EDITOR="vim"
