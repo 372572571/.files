@@ -3,7 +3,7 @@ export HISTSIZE=32767
 
 export EDITOR="vim"
 export VISUAL="vim"
-export PS1="\$ "
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[00;32m\]\$\[\033[00m\] '
 
 stty -ixon
 
