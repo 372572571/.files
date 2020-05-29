@@ -8,9 +8,9 @@ module.exports = {
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',
         // default font size in pixels for all tabs
-        fontSize: 12,
+        fontSize: 13,
         // font family with optional fallbacks
-        fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: '"JetBrains Mono", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
@@ -20,22 +20,22 @@ module.exports = {
         // letter spacing as a relative unit
         letterSpacing: 0,
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-        cursorColor: 'rgba(248,28,229,0.8)',
+        cursorColor: 'rgba(208,208,208,0.8)',
         // terminal text color under BLOCK cursor
-        cursorAccentColor: '#000',
+        cursorAccentColor: '#ff0',
         // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
         cursorShape: 'BLOCK',
         // set to `true` (without backticks and without quotes) for blinking cursor
         cursorBlink: false,
         // color of the text
-        foregroundColor: '#fff',
+        foregroundColor: '#d0d0d0',
         // terminal background color
         // opacity is only supported on macOS
-        backgroundColor: '#000',
+        backgroundColor: '#121212',
         // terminal selection color
         selectionColor: 'rgba(248,28,229,0.3)',
         // border color (window, tabs)
-        borderColor: '#333',
+        borderColor: '#555',
         // custom CSS to embed in the main window
         css: '',
         // custom CSS to embed in the terminal window
@@ -50,29 +50,29 @@ module.exports = {
         // default: `true` (without backticks and without quotes) on Windows and Linux, ignored on macOS
         showWindowControls: '',
         // custom padding (CSS format, i.e.: `top right bottom left`)
-        padding: '12px 14px',
+        padding: '2px 0px 2px 5px',
         // the full list. if you're going to provide the full color palette,
         // including the 6 x 6 color cubes and the grayscale map, just provide
         // an array here instead of a color map object
         colors: {
-            black: '#000000',
-            red: '#C51E14',
-            green: '#1DC121',
-            yellow: '#C7C329',
-            blue: '#0A2FC4',
-            magenta: '#C839C5',
-            cyan: '#20C5C6',
-            white: '#C7C7C7',
-            lightBlack: '#686868',
-            lightRed: '#FD6F6B',
-            lightGreen: '#67F86F',
-            lightYellow: '#FFFA72',
-            lightBlue: '#6A76FB',
-            lightMagenta: '#FD7CFC',
-            lightCyan: '#68FDFE',
-            lightWhite: '#FFFFFF',
-            limeGreen: '#32CD32',
+            black: '#073642',
+            red: '#dc322f',
+            green: '#859900',
+            yellow: '#b58900',
+            blue: '#268bd2',
+            magenta: '#d33682',
+            cyan: '#2aa198',
+            white: '#eee8d5',
+            lightBlack: '#002b36',
+            lightRed: '#cb4b16',
+            lightGreen: '#586e75',
+            lightYellow: '#657b83',
+            lightBlue: '#839496',
+            lightMagenta: '#6c71c4',
+            lightCyan: '#93a1a1',
+            lightWhite: '#fdf6e3',
             lightCoral: '#F08080',
+            limeGreen: '#32CD32',
         },
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
         // if left empty, your system's login shell will be used by default
