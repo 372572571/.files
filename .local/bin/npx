@@ -1,0 +1,1 @@
+docker run --rm -i --user node --workdir /home/node/app --volume $(realpath .):/home/node/app node:alpine npx $*
